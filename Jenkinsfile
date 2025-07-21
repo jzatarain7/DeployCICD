@@ -11,7 +11,7 @@ pipeline {
                 echo "BUILD_NUMBER: ${env.BUILD_NUMBER}"
                 echo "JOB_NAME: ${env.JOB_NAME}"
                 echo "WORKSPACE: ${env.WORKSPACE}"
-                echo "Fin de segunda prueba" 
+                echo "Fin de tercera prueba" 
             }
         }
     }
