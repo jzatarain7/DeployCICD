@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Muerstra variables de enotnro') {
             steps {
-                echo "Hola manuel, eres mi hijo no l oolvides y ando deployando."
+                echo "Hola manuel, eres mi hijo ETERNO no lo olvides y ando deployando."
                 sh 'printenv' // Muestra todas las variables de entorno en Linux
                 echo "PATH: ${env.PATH}"
                 echo "BRANCH_NAME: ${env.BRANCH_NAME}"
